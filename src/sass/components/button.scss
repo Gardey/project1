@@ -1,0 +1,30 @@
+.subsribe_button {       
+    background-color: $page-style-color;       
+    text-transform: uppercase;  
+    border: 0; 
+}
+.button {    
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    animation: radial-pulse 1.5s  infinite;
+    &:hover {
+        animation: none;
+    }
+}
+@keyframes radial-pulse {
+    0% {
+      box-shadow: 0 0 2px 0px rgba(255, 43, 43, 0.5);
+    }
+   
+    50% {
+      box-shadow: 0 0 3px 10px rgba(255, 219, 14, 0.459);
+    }
+    100% {
+        box-shadow: 0 0 7px 15px $page-style-color;
+
+    }
+  }

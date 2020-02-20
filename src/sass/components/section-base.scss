@@ -1,0 +1,28 @@
+.section-name {
+    font-family: 'Courgette', cursive, sans-serif;
+
+}
+.section-descr {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    &::after {
+        content: "";
+        display: block;
+        height: 5px;
+        width: 65px;
+        border-radius: 4px;
+        background-color: $after-color;
+        margin: 45px auto;
+    }
+}
+.section{
+    margin-top: 100px;
+}
+.headers-text {
+    text-align: center;
+    padding-bottom: 100px;
+   }
+  
+

@@ -1,0 +1,33 @@
+.site_box {
+    display: flex;
+    justify-content: space-between;
+    }
+    .page-header {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;  
+        background-image: url(../images/Layer15-min.jpg);
+        height: 1000px;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .head-block {
+        width: 820px;
+        margin: auto;
+        padding-top: 0;
+    }
+    .page-header__title {
+        font-size: 72px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .page-header__subtitle {
+        text-transform: uppercase;
+        font-size: 150px;
+        font-weight: bold;
+        color: $primary-white-color;
+    }
+    .page-header__button {
+        background-color: transparent;
+        border: 3px solid $primary-white-color;
+        height: 40px;
+    }

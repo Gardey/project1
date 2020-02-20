@@ -1,0 +1,30 @@
+.site-navigation__item {
+    text-transform: uppercase;
+    &::after {
+        content: "";
+        display: block;
+        margin-top: 0;
+        height: 3px;
+        border-radius: 6px;
+        background-color: transparent;
+        width: 100%;
+    }
+    &:hover::after {
+        background-color: $before-color;
+        transform: translateY(20px);
+        transition: 200ms;
+        width: 100%;
+        animation: radial-pulse 1.5s  infinite;
+    }
+}
+
+.site-navigation__link{
+    display: block;
+    color: #ffffff;
+    &:hover {
+        color: $before-color;
+        transition: 200ms;
+    }
+}
+
+

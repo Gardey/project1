@@ -1,0 +1,41 @@
+.social-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-box__item{  
+    height: 50px;
+    width: 50px;
+    background-color: $before-color;
+    margin: 1px;
+    &:hover {
+        background-color: $hover-color;
+    }
+    & a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    & svg {
+        // margin: auto;
+        display: block;
+        width: 30px;
+        height: 30px;
+        fill: $hover-color;
+    }
+}
+
+
+.social-box__item a:hover svg {
+    fill: $primary-white-color;
+    transition: 0.3s;
+}
+.social-box__link {
+    width: 100%;
+    height: 100%;
+}
+.icons { 
+ background-repeat: no-repeat;
+}

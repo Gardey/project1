@@ -1,0 +1,45 @@
+.services {
+    width: 1182px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+
+}
+.service_type {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.services_description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+.services_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services__item {
+    width: 350px;
+    background-repeat: no-repeat;
+}
+.services__item--alarm {
+    background-image: url(../images/ALARM.svg);    
+}
+.services__item--graph {
+    background-image: url(../images/LINE-GRAPH.svg);
+}
+.services__item--computer {
+    background-image: url(../images/COMPUTER.svg);
+}
+.services__item--book {
+    background-image: url(../images/BOOK2.svg);
+}
+.services__item--home {
+    background-image: url(../images/HOME.svg);
+}
+.services__item--image {
+    background-image: url(../images/IMAGE.svg);
+}

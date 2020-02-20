@@ -1,0 +1,13 @@
+.site-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    width: 50%;
+}
+.site-navigation__link svg {
+    fill: #ffffff;
+}
+.site-navigation__link:hover svg {
+    fill: #fce38a;
+}
